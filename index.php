@@ -2,13 +2,13 @@
 
 require_once("config.php");
 
-//$sql = new Sql();
+$sql = new Sql();
 
-//$usuarios = $sql->select("SELECT * FROM tb_usuarios");
+$usuarios = $sql->select("SELECT * FROM tb_usuarios");
 
-//echo json_encode($usuarios);
+echo json_encode($usuarios);
 
-//Carrega um usuário
+/*Carrega um usuário
 //$root = new Usuario();
 //$root->loadById(1);
 //echo $root;
@@ -44,7 +44,7 @@ require_once("config.php");
 $usuario = new Usuario();
 $usuario->loadById(5);
 $usuario->delete();
-echo $usuario;
+echo $usuario;*/
 
 
 ?>
